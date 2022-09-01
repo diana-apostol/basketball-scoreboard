@@ -6,6 +6,38 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap" rel="stylesheet"> 
    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;800&display=swap" rel="stylesheet"> 
+        <html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap" rel="stylesheet"> 
+   <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;800&display=swap" rel="stylesheet"> 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+</head>
+    <body>
+
+ <div id="scoreboard">  
+     <div >
+         <h1 class="title"> Home</h1>
+         <div class="score" id="score-home"></div>
+         <button class="btn" onclick="home1()"> +1</button>
+         <button class="btn" onclick="home2()"> +2</button>
+         <button class="btn" onclick="home3()"> +3</button>
+     </div>
+     <div>
+         <h1 class="title"> Guest</h1>
+         <div class="score" id="score-guest"></div>
+         <button class="btn" onclick="guest1()"> +1</button>
+         <button class="btn"  onclick="guest2()"> +2</button>
+         <button class="btn"  onclick="guest3()"> +3</button>
+     </div>
+ </div>   
+<button id="restart" onclick="newGame()"> New Game </button>
+        <script src="index.js"></script>
+    </body>
+</html>
     </head>
     <body>
 
